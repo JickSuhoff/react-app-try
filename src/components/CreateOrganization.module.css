@@ -1,0 +1,100 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(243, 242, 242);
+    height: 900px;
+}
+.formWrapper form {
+    margin: 60px;
+    max-width: 500px;
+    background-color: white;
+}
+.formList {
+    width: 500px;
+    height: 350px;
+    border: 2px solid rgb(214, 213, 213);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+input, select {
+    width: 100%;
+    height: 38px;
+    border: 1px solid rgb(190, 186, 186);
+    padding: 0 0 0 10px;
+    color: gray;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 17px;
+    margin: 0 0 0 0;
+}
+.formList + div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding: 5px;
+    background-color: rgb(243, 242, 242);
+    align-items: flex-end;
+}
+button:first-child {
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    box-shadow: -2px 3px 9px -2px rgba(120,120,120,0.88);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+button:last-child {
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: rgb(16, 173, 16);
+    color: white;
+    box-shadow: -2px 3px 9px -2px rgba(120,120,120,0.88);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: chartreuse;
+    z-index: 999; /* Ensure it appears above other content */
+}
+.popup-content {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+}
+.errorLabel {
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 0 0 5px;
+}
+.errorBorders {
+    border: 2px solid rgb(228, 75, 75);
+}
+.restline {
+    display: block;
+    border: 1px solid rgb(214, 213, 213);
+    width: 85%;
+    margin: 20px 0 0 60px;
+}

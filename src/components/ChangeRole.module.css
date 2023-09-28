@@ -1,0 +1,70 @@
+.changeRoleWrapper {
+    height: 800px;
+}
+.changeRoleWrapper form {
+    margin: 70px 60px 0 60px;
+    max-width: 500px;
+    padding: 40px 30px 40px 20px;
+    border: 2px solid rgb(190, 186, 186);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px -11px rgba(120,120,120,0.88);
+    height: 275px;
+}
+.formList {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.formList label {
+    margin: 10px 0 0px 8px;
+    color: gray;
+    font-size: 19px;
+}
+.changeRoleWrapper .formList input, select {
+    width: 100%;
+    height: 38px;
+    border: 1px solid rgb(190, 186, 186);
+    padding: 0 0 0 10px;
+    color: gray;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 17px;
+    margin: 5px 0 0 0;
+}
+.chandeRoleButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin: 40px 60px 60px 60px;
+    padding: 0 10px;
+}
+.changeRoleWrapper button:first-child {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    box-shadow: -2px 3px 9px 1px rgba(120,120,120,0.88);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.changeRoleWrapper button:last-child {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: rgb(16, 173, 16);
+    box-shadow: -2px 3px 9px 1px rgba(120,120,120,0.88);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+}
+.restline {
+    display: block;
+    border: 1px solid rgb(214, 213, 213);
+    width: 85%;
+    margin: 20px 0 0 60px;
+}
+
